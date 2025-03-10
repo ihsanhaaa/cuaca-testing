@@ -19,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/cuaca', [CuacaController::class, 'index']);
+// Route::get('/cuaca', [CuacaController::class, 'index']);
+Route::get('/api/cuaca', [CuacaController::class, 'getCuaca']);
